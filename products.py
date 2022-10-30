@@ -15,3 +15,7 @@ while True:
 #法三
 	products.append([name, price])
 print(products)
+
+for p in products:
+	print(p)
+	print(p[0], '的價格是', p[1])
